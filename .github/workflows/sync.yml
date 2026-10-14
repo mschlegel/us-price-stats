@@ -61,7 +61,7 @@ jobs:
           stamp=$(date -u +%Y-%m-%dT%H%MZ)
           { echo "data: sync $stamp"; echo; head -50 state/last_run.txt; } > /tmp/msg
           git commit -F /tmp/msg
-          git tag "vintage-$stamp"
+          git tag -a "vintage-$stamp" -m "BLS/BEA data as of $stamp"   # annotated: --follow-tags skips lightweight tags
           git push --follow-tags
 
       - name: Surface fetch failure
