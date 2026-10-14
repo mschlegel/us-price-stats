@@ -9,14 +9,19 @@ printf 'bls:\n  base_url: x\n  surveys:\n    cu: test\n' > "$WORK/repo/config.ym
 
 S="$WORK/srv/cu"
 printf 'series_id     \tyear\tperiod\t       value\tfootnote_codes\n' > $S/cu.data.0.Current
-printf 'CUUR0000SA0   \t1913\tM01\t       9.8\t\n'   >> $S/cu.data.0.Current
 printf 'CUUR0000SA0   \t2025\tM09\t     324.800\t\n' >> $S/cu.data.0.Current
 printf 'CUUR0000SA0   \t2025\tM10\t           -\tX\n' >> $S/cu.data.0.Current
+# Like real BLS: Current starts in 1997; older history is only in the topical files,
+# which can also repeat (and lag) recent observations. Current must win.
+printf 'series_id     \tyear\tperiod\t       value\tfootnote_codes\n' > $S/cu.data.1.AllItems
+printf 'CUUR0000SA0   \t1913\tM01\t       9.8\t\n'   >> $S/cu.data.1.AllItems
+printf 'CUUR0000SA0   \t2025\tM09\t     999.999\t\n' >> $S/cu.data.1.AllItems
 printf 'series_id\tarea_code\titem_code\n'           > $S/cu.series
 printf 'CUUR0000SA0   \t0000\tSA0\n'                >> $S/cu.series
 printf 'CPI documentation\n' > $S/cu.txt
 cat > $S/index.html <<EOF
 <a href="/pub/time.series/cu/cu.data.0.Current">cu.data.0.Current</a>
+<a href="/pub/time.series/cu/cu.data.1.AllItems">cu.data.1.AllItems</a>
 <a href="/pub/time.series/cu/cu.series">cu.series</a>
 <a href="/pub/time.series/cu/cu.txt">cu.txt</a>
 EOF
@@ -28,6 +33,8 @@ cd "$WORK/repo"
 python3 scripts/sync.py
 python3 scripts/validate.py
 grep -q 'CUUR0000SA0,2025,M10,-,X' data/bls/cu/values/2025.csv
+grep -q 'CUUR0000SA0,1913,M01,9.8,' data/bls/cu/values/1913.csv
+! grep -q '999.999' data/bls/cu/values/2025.csv
 grep -q 'latest_period": "2025-M10' state/manifest.json
 test -f data/bls/cu/meta/series.tsv && test -f data/bls/cu/doc/cu.txt
 

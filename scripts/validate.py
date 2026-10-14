@@ -18,7 +18,7 @@ for survey_dir in sorted((ROOT / "data" / "bls").glob("*")):
         errors.append(f"{survey_dir.name}: missing meta/series.tsv")
     for f in vals:
         seen = set()
-        with f.open() as fh:
+        with f.open(encoding="utf-8", newline="") as fh:
             for row in csv.DictReader(fh):
                 k = (row["series_id"], row["year"], row["period"])
                 if k in seen:
@@ -37,7 +37,7 @@ cu = ROOT / "data" / "bls" / "cu" / "values"
 if cu.exists():
     if not (cu / "1913.csv").exists():
         errors.append("cu: history should start in 1913")
-    elif "CUUR0000SA0" not in (cu / "1913.csv").read_text():
+    elif "CUUR0000SA0" not in (cu / "1913.csv").read_text(encoding="utf-8"):
         errors.append("cu: CUUR0000SA0 (CPI-U all items) missing from 1913")
 
 for e in errors[:50]:

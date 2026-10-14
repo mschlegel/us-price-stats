@@ -61,19 +61,28 @@ def sha(b: bytes) -> str:
 
 
 def load_manifest() -> dict:
-    return json.loads(STATE.read_text()) if STATE.exists() else {}
+    return json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
 
 
 def save_manifest(m: dict) -> None:
     STATE.parent.mkdir(parents=True, exist_ok=True)
-    STATE.write_text(json.dumps(m, indent=2, sort_keys=True) + "\n")
+    write_if_changed(STATE, json.dumps(m, indent=2, sort_keys=True) + "\n")
+
+
+def decode(body: bytes) -> str:
+    # Most BLS files are ASCII/UTF-8, but some docs are Windows-1252 (curly quotes etc.).
+    try:
+        return body.decode("utf-8")
+    except UnicodeDecodeError:
+        return body.decode("cp1252", "replace")
 
 
 def write_if_changed(path: Path, text: str) -> bool:
     path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and path.read_text() == text:
+    data = text.encode("utf-8")  # bytes in/out: no platform encoding or newline translation
+    if path.exists() and path.read_bytes() == data:
         return False
-    path.write_text(text)
+    path.write_bytes(data)
     return True
 
 
@@ -89,10 +98,12 @@ def list_bls_files(base: str, survey: str) -> tuple[list[str], str]:
 
 
 def pick_data_files(files: list[str], survey: str) -> list[str]:
+    # data.0.Current only covers recent decades (cu starts in 1997); older history and
+    # discontinued series live in the topical files. Take all of them, Current first so
+    # its rows win when the same observation appears twice.
     current = f"{survey}.data.0.Current"
-    if current in files:
-        return [current]  # full history of every current series
-    return [f for f in files if ".data." in f]  # fall back: union of all data files
+    rest = [f for f in files if ".data." in f and f != current]
+    return ([current] if current in files else []) + rest
 
 
 def clean_tsv(raw: str) -> list[list[str]]:
@@ -125,7 +136,7 @@ def sync_bls_survey(base: str, survey: str, manifest: dict) -> list[str]:
         key = f"bls/{survey}/{name}"
         if manifest.get(key, {}).get("sha256") == sha(body):
             continue
-        text = body.decode("utf-8", "replace")
+        text = decode(body)
         if name in docs:
             dest = out / "doc" / name
             write_if_changed(dest, text)
@@ -148,14 +159,15 @@ def sync_bls_survey(base: str, survey: str, manifest: dict) -> list[str]:
         manifest[lkey] = {"sha256": sha(listing.encode())}
         return changed
 
-    by_year: dict[str, set[tuple]] = defaultdict(set)
-    for name, body in blobs.items():
-        rows = clean_tsv(body.decode("utf-8", "replace"))
+    by_year: dict[str, dict[tuple, tuple]] = defaultdict(dict)
+    for name in data_files:  # Current first: setdefault keeps its version of duplicates
+        rows = clean_tsv(decode(blobs[name]))
         header, rows = rows[0], rows[1:]
         assert header[:4] == ["series_id", "year", "period", "value"], header
         for r in rows:
             r = (r + [""] * 5)[:5]
-            by_year[r[1]].add(tuple(r))
+            by_year[r[1]].setdefault((r[0], r[1], r[2]), tuple(r))
+    by_year = {y: set(d.values()) for y, d in by_year.items()}
 
     vals = out / "values"
     vals.mkdir(parents=True, exist_ok=True)
@@ -211,7 +223,7 @@ def now() -> str:
 
 
 def main() -> int:
-    cfg = yaml.safe_load((ROOT / "config.yml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yml").read_text(encoding="utf-8"))
     base = os.environ.get("BLS_BASE_URL", cfg["bls"]["base_url"]).rstrip("/")
     only = set(filter(None, os.environ.get("ONLY", "").split(",")))
     manifest = load_manifest()
@@ -236,7 +248,7 @@ def main() -> int:
 
     save_manifest(manifest)
     summary = ROOT / "state" / "last_run.txt"
-    summary.write_text("\n".join(changed) + "\n" if changed else "")
+    write_if_changed(summary, "\n".join(changed) + "\n" if changed else "")
     print(f"\n{len(changed)} files changed, {len(failures)} failures")
     for f in failures:
         print("FAIL", f, file=sys.stderr)
