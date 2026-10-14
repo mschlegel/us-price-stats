@@ -1,0 +1,18 @@
+# Which official price datasets to mirror.
+# BLS LABSTAT flat files: https://download.bls.gov/pub/time.series/<code>/
+bls:
+  base_url: https://download.bls.gov/pub/time.series
+  surveys:
+    cu: CPI-U  - Consumer Price Index, All Urban Consumers (headline CPI, 1913-)
+    cw: CPI-W  - Consumer Price Index, Urban Wage Earners (Social Security COLA)
+    su: C-CPI-U - Chained CPI, All Urban Consumers (tax brackets)
+    ap: Average retail prices (gas, eggs, milk, etc.)
+    wp: PPI - Producer Price Index, commodity-based
+    pc: PPI - Producer Price Index, industry-based
+    # ei: Import/Export price indexes (uncomment to add)
+
+# BEA PCE price index (the Fed's inflation target). Needs repo secret BEA_API_KEY
+# (free: https://apps.bea.gov/API/signup/). Skipped silently if the secret is absent.
+bea:
+  tables:
+    T20804: PCE price indexes by major type of product, monthly (NIPA 2.8.4)
