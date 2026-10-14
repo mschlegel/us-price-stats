@@ -1,0 +1,436 @@
+{
+  "bls/ap/ap.area": {
+    "fetched": "2026-10-14T23:19:56Z",
+    "sha256": "1137036146970cc9320065ed0f94902f710709b6693ca0abf82c9fda3cf51042"
+  },
+  "bls/ap/ap.contacts": {
+    "fetched": "2026-10-14T23:19:56Z",
+    "sha256": "e6bf19bed5382472c2d397111995d39a8dfb012091cffee0fadadb9b778c0157"
+  },
+  "bls/ap/ap.footnote": {
+    "fetched": "2026-10-14T23:19:56Z",
+    "sha256": "ee0ad4fc6d5ca98c10b0a9b9cdd343ad9a56438c6d3534cc4c82f20505cac6f9"
+  },
+  "bls/ap/ap.item": {
+    "fetched": "2026-10-14T23:19:56Z",
+    "sha256": "4e96f3bca741f65692971fdec8053a44f7ee20f47a02eace4c4d3d9a1dd148f6"
+  },
+  "bls/ap/ap.period": {
+    "fetched": "2026-10-14T23:19:57Z",
+    "sha256": "3a6636301c03a15da1cfa37522aeaccda45fa2bf92d325677d7b6c258ab0cd7d"
+  },
+  "bls/ap/ap.seasonal": {
+    "fetched": "2026-10-14T23:19:57Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/ap/ap.series": {
+    "fetched": "2026-10-14T23:19:57Z",
+    "sha256": "9b3ad0b00e10b7872e76c09c620b655f24e76220f4ac5730069449979fc08eee"
+  },
+  "bls/ap/ap.txt": {
+    "fetched": "2026-10-14T23:19:57Z",
+    "sha256": "c83886f9a54f113a093c4251d5893233854407e382ae0d5209ffb09f791e7864"
+  },
+  "bls/ap/data": {
+    "fetched": "2026-10-14T23:20:00Z",
+    "files": [
+      "ap.data.0.Current",
+      "ap.data.1.HouseholdFuels",
+      "ap.data.2.Gasoline",
+      "ap.data.3.Food"
+    ],
+    "latest_period": "2026-M09",
+    "rows": 356553,
+    "sha256": "59905ef4c9bdee5d9b8c25a0116526f291347f033c8b7d9e3ceeca076e338777"
+  },
+  "bls/ap/listing": {
+    "sha256": "0a45952145d838d8525c9bf5743afe9dcaabc2fd5abb9248b83ec844c55c8563"
+  },
+  "bls/cu/cu.area": {
+    "fetched": "2026-10-14T23:18:23Z",
+    "sha256": "f4d0442e38dd4c4909a98b9fc8f8bc5fc8146ca4e87e4d9b947461f78af8abeb"
+  },
+  "bls/cu/cu.aspect": {
+    "fetched": "2026-10-14T23:18:24Z",
+    "sha256": "1b221788720dc0d46cf859726a9b1be0f457b41fb9f9a1987632f1d3d76a09b2"
+  },
+  "bls/cu/cu.base": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "76ffd7898f6208efa31627f1b3f424d1d27e4af367f25cfe12df1784718fe22a"
+  },
+  "bls/cu/cu.contacts": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "bcff831740bb0dc514f63179baa42d191d60088762e916e1e521ee3ed2e71cd4"
+  },
+  "bls/cu/cu.footnote": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "d92c2f0b60f9a52f9184f366f9d5b61fc6659181959be718fa332e43f9983903"
+  },
+  "bls/cu/cu.item": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "376f2a9dd2cc7bb358118e6c0e031a404941cfe158b82612e807e44eabcec8fa"
+  },
+  "bls/cu/cu.period": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "6048204ad65fe35c5e519dd2db4a5593135e79f4324145e7fdebdf1882734d34"
+  },
+  "bls/cu/cu.periodicity": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "f216b4a52d796e041e428732cd4d6cdc913a832abaede79a8060d3658e7563a6"
+  },
+  "bls/cu/cu.seasonal": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/cu/cu.series": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "96d68bb334cc2a4bc3b4a9509179dc9dc692d60c3b727c30431278753cdcc68f"
+  },
+  "bls/cu/cu.txt": {
+    "fetched": "2026-10-14T23:18:25Z",
+    "sha256": "1394b7f4210fda3d6dab62437bae5bd3664ed040612dd3df6268bc4e2911a471"
+  },
+  "bls/cu/data": {
+    "fetched": "2026-10-14T23:18:41Z",
+    "files": [
+      "cu.data.0.Current",
+      "cu.data.1.AllItems",
+      "cu.data.10.OtherWest",
+      "cu.data.11.USFoodBeverage",
+      "cu.data.12.USHousing",
+      "cu.data.13.USApparel",
+      "cu.data.14.USTransportation",
+      "cu.data.15.USMedical",
+      "cu.data.16.USRecreation",
+      "cu.data.17.USEducationAndCommunication",
+      "cu.data.18.USOtherGoodsAndServices",
+      "cu.data.19.PopulationSize",
+      "cu.data.2.Summaries",
+      "cu.data.20.USCommoditiesServicesSpecial",
+      "cu.data.3.AsizeNorthEast",
+      "cu.data.4.AsizeNorthCentral",
+      "cu.data.5.AsizeSouth",
+      "cu.data.6.AsizeWest",
+      "cu.data.7.OtherNorthEast",
+      "cu.data.8.OtherNorthCentral",
+      "cu.data.9.OtherSouth"
+    ],
+    "latest_period": "2026-M09",
+    "rows": 1774829,
+    "sha256": "42b18a87ffec71ed92e3fc72e89d515e7ba8d075d4c6776057b298692cd75d9e"
+  },
+  "bls/cu/listing": {
+    "sha256": "7a94c7d99efc5b5de110272d795e943cf1bf26070cd3dc0012e0743e1f7ace4f"
+  },
+  "bls/cw/cw.area": {
+    "fetched": "2026-10-14T23:18:42Z",
+    "sha256": "f4d0442e38dd4c4909a98b9fc8f8bc5fc8146ca4e87e4d9b947461f78af8abeb"
+  },
+  "bls/cw/cw.aspect": {
+    "fetched": "2026-10-14T23:18:43Z",
+    "sha256": "0d134c82a8f23ad6e1ac705d27abc3d51f92d9d332f354dced8c601db5a8684e"
+  },
+  "bls/cw/cw.base": {
+    "fetched": "2026-10-14T23:18:43Z",
+    "sha256": "76ffd7898f6208efa31627f1b3f424d1d27e4af367f25cfe12df1784718fe22a"
+  },
+  "bls/cw/cw.contacts": {
+    "fetched": "2026-10-14T23:18:44Z",
+    "sha256": "0839ff62183f81f8ff5f9c5d71078db974db0ea47c218f9426f10ba06328ccfb"
+  },
+  "bls/cw/cw.footnote": {
+    "fetched": "2026-10-14T23:18:44Z",
+    "sha256": "d92c2f0b60f9a52f9184f366f9d5b61fc6659181959be718fa332e43f9983903"
+  },
+  "bls/cw/cw.item": {
+    "fetched": "2026-10-14T23:18:44Z",
+    "sha256": "8d12eb1cac6989b7580baafa77f4de593f90a148db1e614fb068475ffd90bab9"
+  },
+  "bls/cw/cw.period": {
+    "fetched": "2026-10-14T23:18:44Z",
+    "sha256": "6048204ad65fe35c5e519dd2db4a5593135e79f4324145e7fdebdf1882734d34"
+  },
+  "bls/cw/cw.periodicity": {
+    "fetched": "2026-10-14T23:18:45Z",
+    "sha256": "f216b4a52d796e041e428732cd4d6cdc913a832abaede79a8060d3658e7563a6"
+  },
+  "bls/cw/cw.seasonal": {
+    "fetched": "2026-10-14T23:18:45Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/cw/cw.series": {
+    "fetched": "2026-10-14T23:18:45Z",
+    "sha256": "ae677ac5395f43799f0dc3cb341df7b6f164adc1102362595fda6ed7d3445086"
+  },
+  "bls/cw/cw.txt": {
+    "fetched": "2026-10-14T23:18:45Z",
+    "sha256": "5ad24c7f283fbf7ec317f6e9dce169d8967cf3beed2048e9e5f86df8a1dc5a05"
+  },
+  "bls/cw/data": {
+    "fetched": "2026-10-14T23:19:52Z",
+    "files": [
+      "cw.data.0.Current",
+      "cw.data.1.AllItems",
+      "cw.data.10.OtherWest",
+      "cw.data.11.USFoodBeverage",
+      "cw.data.12.USHousing",
+      "cw.data.13.USApparel",
+      "cw.data.14.USTransportation",
+      "cw.data.15.USMedical",
+      "cw.data.16.USRecreation",
+      "cw.data.17.USEducationAndCommunication",
+      "cw.data.18.USOtherGoodsAndServices",
+      "cw.data.19.PopulationSize",
+      "cw.data.2.Summaries",
+      "cw.data.20.USCommoditiesServicesSpecial",
+      "cw.data.3.AsizeNorthEast",
+      "cw.data.4.AsizeNorthCentral",
+      "cw.data.5.AsizeSouth",
+      "cw.data.6.AsizeWest",
+      "cw.data.7.OtherNorthEast",
+      "cw.data.8.OtherNorthCentral",
+      "cw.data.9.OtherSouth"
+    ],
+    "latest_period": "2026-M09",
+    "rows": 1697839,
+    "sha256": "66d8e6ef3536e0c4f6663d3c8dba82ae3b650a0894fe17c78747c3207b116b00"
+  },
+  "bls/cw/listing": {
+    "sha256": "e8a8cda31daeadb7f40d8da34fcbdfbb95fcbebd4233cb84e96f01d5076c0a34"
+  },
+  "bls/pc/data": {
+    "fetched": "2026-10-14T23:20:45Z",
+    "files": [
+      "pc.data.0.Current",
+      "pc.data.01.aggregates",
+      "pc.data.05.ForestryandLogging",
+      "pc.data.1.OilAndGas",
+      "pc.data.10.Wood",
+      "pc.data.11.Paper",
+      "pc.data.12.Printing",
+      "pc.data.13.PetroleumCoalProducts",
+      "pc.data.14.Chemicals",
+      "pc.data.15.PlasticsRubberProducts",
+      "pc.data.16.NonmetallicMineral",
+      "pc.data.17.PrimaryMetal",
+      "pc.data.18.FabricatedMetalProduct",
+      "pc.data.19.Machinery",
+      "pc.data.2.Mining",
+      "pc.data.20.ComputerProduct",
+      "pc.data.21.ElectricalMachinery",
+      "pc.data.22.TransportationEquipment",
+      "pc.data.23.Furniture",
+      "pc.data.24.Miscellaneous",
+      "pc.data.25.MotorVehicleDealers",
+      "pc.data.26.FurnitureStores",
+      "pc.data.27.ElectronicsStores",
+      "pc.data.28.BuildingGardenStores",
+      "pc.data.29.FoodBeverageStores",
+      "pc.data.3.MiningSupport",
+      "pc.data.30.HealthStores",
+      "pc.data.31.GasolineStations",
+      "pc.data.32.ClothingStores",
+      "pc.data.33.SportsMusicStores",
+      "pc.data.34.GeneralStores",
+      "pc.data.35.NonstoreRetailers",
+      "pc.data.36.AirTransportation",
+      "pc.data.37.RailTransportation",
+      "pc.data.38.WaterTransportation",
+      "pc.data.39.TruckTransportation",
+      "pc.data.4.Food",
+      "pc.data.40.PipelineTransportation",
+      "pc.data.42.TransportationSupport",
+      "pc.data.43.PostalService",
+      "pc.data.44.CouriersAndMessengers",
+      "pc.data.45.WarehousingStorage",
+      "pc.data.46.Utilities",
+      "pc.data.47.AmbulatoryHealthCareServices",
+      "pc.data.5.BeverageTobacco",
+      "pc.data.50.Hospitals",
+      "pc.data.51.NursingResidentialCareFacil",
+      "pc.data.53.Publishing",
+      "pc.data.54.Broadcasting",
+      "pc.data.55.Telecommunications",
+      "pc.data.56.ISPsSearchPortandDataProcess",
+      "pc.data.57.Finance",
+      "pc.data.58.InsuranceCarriers",
+      "pc.data.59.RealEstate",
+      "pc.data.6.Textile",
+      "pc.data.61.EducationalServices",
+      "pc.data.62.RentalandLeasingServices",
+      "pc.data.63.ProfessionalandTechnicalServ",
+      "pc.data.67.AdministrativeandSupportServ",
+      "pc.data.7.TextileProduct",
+      "pc.data.70.WasteMgtandRemediationServ",
+      "pc.data.71.Accommodation",
+      "pc.data.72.RecyclableMaterials",
+      "pc.data.73.MiscellaneousStoreRetailers",
+      "pc.data.74.PremiumsforPropandCasualtyIns",
+      "pc.data.75.Construction",
+      "pc.data.76.WholesaleTrade",
+      "pc.data.77.Recreation",
+      "pc.data.8.Apparel",
+      "pc.data.81.OtherServices",
+      "pc.data.9.Leather"
+    ],
+    "latest_period": "2026-M08",
+    "rows": 1560424,
+    "sha256": "72c4bd80de7af6944a2db3e3bcf81f3882fbd44a984a49b51639ec8a6b84ca81"
+  },
+  "bls/pc/listing": {
+    "sha256": "3b5846219b233fe537459bbd5f8a408e69e9d5ce2f51a797a9f4f8674fec4cda"
+  },
+  "bls/pc/pc.contacts": {
+    "fetched": "2026-10-14T23:20:17Z",
+    "sha256": "e719e55a1ca6da66bb373eb570ac1dd6d7438c062404602c2c9f1e525369b094"
+  },
+  "bls/pc/pc.footnote": {
+    "fetched": "2026-10-14T23:20:17Z",
+    "sha256": "2c34208e13e23e809f3eac8ac1bc42c5e975e5b2140e8cba837468a968718959"
+  },
+  "bls/pc/pc.industry": {
+    "fetched": "2026-10-14T23:20:17Z",
+    "sha256": "716bce1ae837208d916a89d7c8dffc62244371428c241782c27fddef8276623d"
+  },
+  "bls/pc/pc.period": {
+    "fetched": "2026-10-14T23:20:18Z",
+    "sha256": "3a6636301c03a15da1cfa37522aeaccda45fa2bf92d325677d7b6c258ab0cd7d"
+  },
+  "bls/pc/pc.product": {
+    "fetched": "2026-10-14T23:20:18Z",
+    "sha256": "51847709741b41e60676662d67fa08e3c9ed6ce24935215a641361be2668e025"
+  },
+  "bls/pc/pc.seasonal": {
+    "fetched": "2026-10-14T23:20:18Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/pc/pc.series": {
+    "fetched": "2026-10-14T23:20:19Z",
+    "sha256": "911f881136037963018f92a0c1e4f7f48452ab53ccf303d724eaa609f8845715"
+  },
+  "bls/pc/pc.txt": {
+    "fetched": "2026-10-14T23:20:19Z",
+    "sha256": "e736aa310cdc35422d37dacdb9abbe2c86e85a0988fe98ee0ee1792f3b32cf29"
+  },
+  "bls/su/data": {
+    "fetched": "2026-10-14T23:19:55Z",
+    "files": [
+      "su.data.0.Current",
+      "su.data.1.AllItems"
+    ],
+    "latest_period": "2026-M09",
+    "rows": 9674,
+    "sha256": "234848aaf6012b5af301f2288f00948c701e320245c0018fe0a810119a125d96"
+  },
+  "bls/su/listing": {
+    "sha256": "a3f86a970231da0a31c7eccb2c1b2671d20cc28fa876773ff5e74ffc54cf3a3f"
+  },
+  "bls/su/su.area": {
+    "fetched": "2026-10-14T23:19:53Z",
+    "sha256": "d70342017c5fe72e9c8cddb73208a0d5d8ff30255c9b1f1e5e467b1a89cddf7f"
+  },
+  "bls/su/su.base": {
+    "fetched": "2026-10-14T23:19:53Z",
+    "sha256": "6fd8377334974f862a5814c96e96437363ecf19a2eba8686b9f71b8f65908d35"
+  },
+  "bls/su/su.footnote": {
+    "fetched": "2026-10-14T23:19:53Z",
+    "sha256": "732d760a9e80af7637f7bcded8f4828dd0422b46faa98e03099e8fd3d792170f"
+  },
+  "bls/su/su.item": {
+    "fetched": "2026-10-14T23:19:53Z",
+    "sha256": "b1136cbaf18ea45c0353fa5b4b1ea304f4acd1942f5e8f7b082e423a66efcd8c"
+  },
+  "bls/su/su.periodicity": {
+    "fetched": "2026-10-14T23:19:54Z",
+    "sha256": "a40cc1b525933b5f910c536df7424a825923412e5250c06c266c692af7dbbce5"
+  },
+  "bls/su/su.seasonal": {
+    "fetched": "2026-10-14T23:19:54Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/su/su.series": {
+    "fetched": "2026-10-14T23:19:54Z",
+    "sha256": "f9e620d1efd9655cb30f5d2daf11e30ddac7d09c379a694c34ebc8943b45076f"
+  },
+  "bls/su/su.txt": {
+    "fetched": "2026-10-14T23:19:54Z",
+    "sha256": "18502bd809bcec692204a86353b7b4b9612ae82a35a8067580e5c1671fae788b"
+  },
+  "bls/wp/data": {
+    "fetched": "2026-10-14T23:20:17Z",
+    "files": [
+      "wp.data.0.Current",
+      "wp.data.1.AllCommodities",
+      "wp.data.10.Pulp",
+      "wp.data.11a.Metals10-103",
+      "wp.data.11b.Metals104-109",
+      "wp.data.12a.Machinery11-113",
+      "wp.data.12b.Machinery114-116",
+      "wp.data.12c.Machinery117-119",
+      "wp.data.12i.MachineryInputs",
+      "wp.data.13.Furniture",
+      "wp.data.14.Minerals",
+      "wp.data.14i.TransportEqInputs",
+      "wp.data.15.Transportation",
+      "wp.data.16.Miscellaneous",
+      "wp.data.18.SpecialIndexes",
+      "wp.data.19.SteelMill",
+      "wp.data.2.FarmProducts",
+      "wp.data.21.Aggregates",
+      "wp.data.22.FD-ID",
+      "wp.data.3.ProcessedFoods",
+      "wp.data.30.Services",
+      "wp.data.30i.TransportServInputs",
+      "wp.data.4.Textile",
+      "wp.data.51i.HealthServInputs",
+      "wp.data.56i.EntertnOtherInputs",
+      "wp.data.6.Fuels",
+      "wp.data.7.Chemicals",
+      "wp.data.7i.ChemicalsInputs",
+      "wp.data.8.Rubber",
+      "wp.data.80.Construction",
+      "wp.data.80i.ConstructnInputs",
+      "wp.data.8i.RubberInputs",
+      "wp.data.9.Lumber"
+    ],
+    "latest_period": "2026-M08",
+    "rows": 1803762,
+    "sha256": "df1b57c86eb34604150f3f25402e9886712e95c4cfe8ee42e6304693a07172e2"
+  },
+  "bls/wp/listing": {
+    "sha256": "ab813996d3d3e59426e2ac17c665db6b1c4dec8b61324337c662d783240b1437"
+  },
+  "bls/wp/wp.contacts": {
+    "fetched": "2026-10-14T23:20:00Z",
+    "sha256": "da383d3e5e98577bf5e5f5f91ce0ef22db35f19e60bd7a4f8eac28189ca8c983"
+  },
+  "bls/wp/wp.footnote": {
+    "fetched": "2026-10-14T23:20:00Z",
+    "sha256": "2c34208e13e23e809f3eac8ac1bc42c5e975e5b2140e8cba837468a968718959"
+  },
+  "bls/wp/wp.group": {
+    "fetched": "2026-10-14T23:20:00Z",
+    "sha256": "863337a72fa59e22863ae38611b33483e6da393286754762b0fe1c8ef9b7402d"
+  },
+  "bls/wp/wp.item": {
+    "fetched": "2026-10-14T23:20:00Z",
+    "sha256": "04b69a38363be301c9e912c26dd64952b2dabe43f5c3fdf05638b6ee819e8bda"
+  },
+  "bls/wp/wp.period": {
+    "fetched": "2026-10-14T23:20:01Z",
+    "sha256": "3a6636301c03a15da1cfa37522aeaccda45fa2bf92d325677d7b6c258ab0cd7d"
+  },
+  "bls/wp/wp.seasonal": {
+    "fetched": "2026-10-14T23:20:01Z",
+    "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
+  },
+  "bls/wp/wp.series": {
+    "fetched": "2026-10-14T23:20:01Z",
+    "sha256": "cf06d3d3e03393dce142145fa24ba028915ca39637adb86a0efe1a2b66fe8265"
+  },
+  "bls/wp/wp.txt": {
+    "fetched": "2026-10-14T23:20:01Z",
+    "sha256": "0ee0395a0e602b41eeb70101695b05aaf4f65f62f553b34304bff44228730ed8"
+  }
+}
