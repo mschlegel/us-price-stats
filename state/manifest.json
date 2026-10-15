@@ -199,7 +199,7 @@
     "sha256": "e8a8cda31daeadb7f40d8da34fcbdfbb95fcbebd4233cb84e96f01d5076c0a34"
   },
   "bls/pc/data": {
-    "fetched": "2026-10-14T23:20:45Z",
+    "fetched": "2026-10-15T18:14:09Z",
     "files": [
       "pc.data.0.Current",
       "pc.data.01.aggregates",
@@ -273,12 +273,12 @@
       "pc.data.81.OtherServices",
       "pc.data.9.Leather"
     ],
-    "latest_period": "2026-M08",
-    "rows": 1560424,
-    "sha256": "72c4bd80de7af6944a2db3e3bcf81f3882fbd44a984a49b51639ec8a6b84ca81"
+    "latest_period": "2026-M09",
+    "rows": 1563904,
+    "sha256": "43907ff7c0d39d7489d74f1b1d9c4c33bdceecfa03237b328176d1dc443f47ee"
   },
   "bls/pc/listing": {
-    "sha256": "3b5846219b233fe537459bbd5f8a408e69e9d5ce2f51a797a9f4f8674fec4cda"
+    "sha256": "79f8e9c1a3c152571977a609f4a43a31288b810a9d0be8852cdf2f7bba052692"
   },
   "bls/pc/pc.contacts": {
     "fetched": "2026-10-14T23:20:17Z",
@@ -305,8 +305,8 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/pc/pc.series": {
-    "fetched": "2026-10-14T23:20:19Z",
-    "sha256": "911f881136037963018f92a0c1e4f7f48452ab53ccf303d724eaa609f8845715"
+    "fetched": "2026-10-15T18:13:15Z",
+    "sha256": "df9117c6b909738ffee184244076d0a450775556c8db93454d59751a4dba3b0f"
   },
   "bls/pc/pc.txt": {
     "fetched": "2026-10-14T23:20:19Z",
@@ -358,7 +358,7 @@
     "sha256": "18502bd809bcec692204a86353b7b4b9612ae82a35a8067580e5c1671fae788b"
   },
   "bls/wp/data": {
-    "fetched": "2026-10-14T23:20:17Z",
+    "fetched": "2026-10-15T18:13:13Z",
     "files": [
       "wp.data.0.Current",
       "wp.data.1.AllCommodities",
@@ -394,12 +394,12 @@
       "wp.data.8i.RubberInputs",
       "wp.data.9.Lumber"
     ],
-    "latest_period": "2026-M08",
-    "rows": 1803762,
-    "sha256": "df1b57c86eb34604150f3f25402e9886712e95c4cfe8ee42e6304693a07172e2"
+    "latest_period": "2026-M09",
+    "rows": 1807964,
+    "sha256": "a27ddcabc44a47efb5b0bec7faae5e5f4e2321f3218f987d69e3d30f41df6046"
   },
   "bls/wp/listing": {
-    "sha256": "ab813996d3d3e59426e2ac17c665db6b1c4dec8b61324337c662d783240b1437"
+    "sha256": "42bb28382c0e842ca0ce9a8b5a14573f34b7bfc0996f75025d98afb741127672"
   },
   "bls/wp/wp.contacts": {
     "fetched": "2026-10-14T23:20:00Z",
@@ -414,8 +414,8 @@
     "sha256": "863337a72fa59e22863ae38611b33483e6da393286754762b0fe1c8ef9b7402d"
   },
   "bls/wp/wp.item": {
-    "fetched": "2026-10-14T23:20:00Z",
-    "sha256": "04b69a38363be301c9e912c26dd64952b2dabe43f5c3fdf05638b6ee819e8bda"
+    "fetched": "2026-10-15T18:12:11Z",
+    "sha256": "99753e5e8f431805f3fd970855617f26ed91db307dc439ed5f072a4106bf621a"
   },
   "bls/wp/wp.period": {
     "fetched": "2026-10-14T23:20:01Z",
@@ -426,8 +426,8 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/wp/wp.series": {
-    "fetched": "2026-10-14T23:20:01Z",
-    "sha256": "cf06d3d3e03393dce142145fa24ba028915ca39637adb86a0efe1a2b66fe8265"
+    "fetched": "2026-10-15T18:12:12Z",
+    "sha256": "c18881bea797829ad695072ef4f49662edaa75306eda17848392a10791f7b779"
   },
   "bls/wp/wp.txt": {
     "fetched": "2026-10-14T23:20:01Z",
