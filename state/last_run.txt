@@ -1,5 +1,0 @@
-bls/wp/wp.item
-bls/wp/wp.series
-bls/wp/values/2026.csv
-bls/pc/pc.series
-bls/pc/values/2026.csv
