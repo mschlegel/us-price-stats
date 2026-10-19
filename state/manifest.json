@@ -83,15 +83,15 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/cu/cu.series": {
-    "fetched": "2026-10-14T23:18:25Z",
-    "sha256": "96d68bb334cc2a4bc3b4a9509179dc9dc692d60c3b727c30431278753cdcc68f"
+    "fetched": "2026-10-19T19:47:34Z",
+    "sha256": "0c15b6db9f3c490baef34c87699da2ecd06c5d277e043004d189450f6ddc8b00"
   },
   "bls/cu/cu.txt": {
     "fetched": "2026-10-14T23:18:25Z",
     "sha256": "1394b7f4210fda3d6dab62437bae5bd3664ed040612dd3df6268bc4e2911a471"
   },
   "bls/cu/data": {
-    "fetched": "2026-10-14T23:18:41Z",
+    "fetched": "2026-10-19T19:47:50Z",
     "files": [
       "cu.data.0.Current",
       "cu.data.1.AllItems",
@@ -116,11 +116,11 @@
       "cu.data.9.OtherSouth"
     ],
     "latest_period": "2026-M09",
-    "rows": 1774829,
-    "sha256": "42b18a87ffec71ed92e3fc72e89d515e7ba8d075d4c6776057b298692cd75d9e"
+    "rows": 1774824,
+    "sha256": "ac5f719ea8477999ba4f66ed0c3de158502b5d24ea3559eeb5a33228398a2bbe"
   },
   "bls/cu/listing": {
-    "sha256": "7a94c7d99efc5b5de110272d795e943cf1bf26070cd3dc0012e0743e1f7ace4f"
+    "sha256": "4e6b483af85be7d128a55abe6eeef3b0c052e581122f182a161a6b7ee0b1fe43"
   },
   "bls/cw/cw.area": {
     "fetched": "2026-10-14T23:18:42Z",
@@ -159,15 +159,15 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/cw/cw.series": {
-    "fetched": "2026-10-14T23:18:45Z",
-    "sha256": "ae677ac5395f43799f0dc3cb341df7b6f164adc1102362595fda6ed7d3445086"
+    "fetched": "2026-10-19T19:47:51Z",
+    "sha256": "d4b8669e513a78665907de660fdded8d9887fc4a780169e58c904a406b9d8b7e"
   },
   "bls/cw/cw.txt": {
     "fetched": "2026-10-14T23:18:45Z",
     "sha256": "5ad24c7f283fbf7ec317f6e9dce169d8967cf3beed2048e9e5f86df8a1dc5a05"
   },
   "bls/cw/data": {
-    "fetched": "2026-10-14T23:19:52Z",
+    "fetched": "2026-10-19T19:48:11Z",
     "files": [
       "cw.data.0.Current",
       "cw.data.1.AllItems",
@@ -192,11 +192,11 @@
       "cw.data.9.OtherSouth"
     ],
     "latest_period": "2026-M09",
-    "rows": 1697839,
-    "sha256": "66d8e6ef3536e0c4f6663d3c8dba82ae3b650a0894fe17c78747c3207b116b00"
+    "rows": 1697834,
+    "sha256": "f70a70bd77ae75a8245040136a3d38c20aa42dcd3ed4f9ca98838db5b18dc07c"
   },
   "bls/cw/listing": {
-    "sha256": "e8a8cda31daeadb7f40d8da34fcbdfbb95fcbebd4233cb84e96f01d5076c0a34"
+    "sha256": "f92e520315d80c56846c38c77669ece75edda637bd4f53a70fdba863e7b34afb"
   },
   "bls/pc/data": {
     "fetched": "2026-10-15T18:14:09Z",
