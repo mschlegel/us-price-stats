@@ -1,4 +1,0 @@
-bls/cu/cu.series
-bls/cu/values/2026.csv
-bls/cw/cw.series
-bls/cw/values/2026.csv
