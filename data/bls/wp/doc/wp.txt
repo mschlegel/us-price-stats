@@ -19,12 +19,12 @@ Section 1
 The following is a description of: PRODUCER PRICE INDEX-Current Commodity Series (WP)
 
 Survey Description:  About 10,000 PPIs for individual products and groups of products
-are released each month. PPIs are available for the output of nearly all industries in
+are released each month. PPIs are available for the output of most industries in
 the goods-producing sectors of the U.S. economy--mining, manufacturing, agriculture, 
 fishing, and forestry--as well as natural gas, electricity, construction, and goods
 competitive with those made in the producing sectors, such as waste and scrap materials. 
-The PPI program covers approximately 72 percent of the service sector's output, as 
-measured by revenue reported in the 2007 Economic Census. Data includes industries in the
+The PPI program covers approximately 70 percent of the service sector's output, as 
+measured by revenue reported in the 2017 Economic Census. Data includes industries in the
 following sectors: wholesale and retail trade; transportation and warehousing; information;
 finance and insurance; real estate brokering, rental, and leasing; professional, scientific,
 and technical services; administrative, support, and waste management services; health care
@@ -79,7 +79,7 @@ they become discontinued.
 
 
 References: BLS Handbook of Methods, Chapter 14, "Producer Prices", 
-            Online at https://www.bls.gov/opub/hom/pdf/homch14.pdf
+            Online at https://www.bls.gov/opub/hom/ppi
 
 ==================================================================================
 Section 2
@@ -92,7 +92,6 @@ wp.data.1.AllCommodities   	-(group 00) All commodities
 wp.data.2.FarmProducts	   	-(group 01) Farm products
 wp.data.3.ProcessedFoods   	-(group 02) Processed foods and feeds
 wp.data.4.Textile	   		-(group 03) Textile products and apparel
-wp.data.5.Leather	   		-(group 04) Hides, skins, leather, and related
 wp.data.6.Fuels		   		-(group 05) Fuels and related products and power
 wp.data.7.Chemicals	   		-(group 06) Chemicals and allied products
 wp.data.7i.ChemicalsInputs	   	-(group IP326) Inputs to chemical mfg industries
@@ -111,7 +110,6 @@ wp.data.14.Minerals	   		-(group 13) Nonmetallic mineral products
 wp.data.15.Transportation  	-(group 14) Transportation equipment
 wp.data.14i.TransportEqInputs	-(group IP336) Inputs to transportation equip. mfg
 wp.data.16.Miscellaneous   	-(group 15) Miscellaneous products
-wp.data.17.TotalDurables   	-(group DUR) Indexes grouped by durability
 wp.data.18.SpecialIndexes		-(group SI) Special groupings indexes
 wp.data.19.SteelMill	   		-(group SIS) Steel mill products special indexes
 wp.data.20.StageofProcessing	-(group SOP) Stage of processing indexes

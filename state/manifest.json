@@ -399,7 +399,7 @@
     "sha256": "a27ddcabc44a47efb5b0bec7faae5e5f4e2321f3218f987d69e3d30f41df6046"
   },
   "bls/wp/listing": {
-    "sha256": "42bb28382c0e842ca0ce9a8b5a14573f34b7bfc0996f75025d98afb741127672"
+    "sha256": "af516754cb6022016aad5c2cf07455eae205bd9a670960f9ca1f12d8711fd326"
   },
   "bls/wp/wp.contacts": {
     "fetched": "2026-10-14T23:20:00Z",
@@ -430,7 +430,7 @@
     "sha256": "c18881bea797829ad695072ef4f49662edaa75306eda17848392a10791f7b779"
   },
   "bls/wp/wp.txt": {
-    "fetched": "2026-10-14T23:20:01Z",
-    "sha256": "0ee0395a0e602b41eeb70101695b05aaf4f65f62f553b34304bff44228730ed8"
+    "fetched": "2026-10-22T18:28:34Z",
+    "sha256": "ed8e1cf92bb56629dc698b410f8cb3f478f747e92e22ccebebba4811a0d5df86"
   }
 }
