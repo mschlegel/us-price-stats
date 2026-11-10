@@ -1,0 +1,11 @@
+bls/cu/cu.aspect
+bls/cu/cu.series
+bls/cu/values/2026.csv
+bls/cw/cw.aspect
+bls/cw/cw.series
+bls/cw/values/2026.csv
+bls/su/su.series
+bls/su/values/2025.csv
+bls/su/values/2026.csv
+bls/ap/ap.series
+bls/ap/values/2026.csv

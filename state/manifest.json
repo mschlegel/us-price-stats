@@ -24,35 +24,35 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/ap/ap.series": {
-    "fetched": "2026-10-14T23:19:57Z",
-    "sha256": "9b3ad0b00e10b7872e76c09c620b655f24e76220f4ac5730069449979fc08eee"
+    "fetched": "2026-11-10T20:46:42Z",
+    "sha256": "ec0423959bd95f7254dc28a3442fffbb780390ba0660dd99df7e5a9f11941542"
   },
   "bls/ap/ap.txt": {
     "fetched": "2026-10-14T23:19:57Z",
     "sha256": "c83886f9a54f113a093c4251d5893233854407e382ae0d5209ffb09f791e7864"
   },
   "bls/ap/data": {
-    "fetched": "2026-10-14T23:20:00Z",
+    "fetched": "2026-11-10T20:46:43Z",
     "files": [
       "ap.data.0.Current",
       "ap.data.1.HouseholdFuels",
       "ap.data.2.Gasoline",
       "ap.data.3.Food"
     ],
-    "latest_period": "2026-M09",
-    "rows": 356553,
-    "sha256": "59905ef4c9bdee5d9b8c25a0116526f291347f033c8b7d9e3ceeca076e338777"
+    "latest_period": "2026-M10",
+    "rows": 356963,
+    "sha256": "de371847faed67458dd374deb3ad07ebef24e032bbe7eb223f91570df82fc899"
   },
   "bls/ap/listing": {
-    "sha256": "20c39bfdf272e796b07b37c27efc47f83233790b3a8994c2856c3a9532472c1e"
+    "sha256": "eff77404a66fc30ebe22b4c455c38a07b3d96b9c1fb59320301dfe31fec5fbf9"
   },
   "bls/cu/cu.area": {
     "fetched": "2026-10-14T23:18:23Z",
     "sha256": "f4d0442e38dd4c4909a98b9fc8f8bc5fc8146ca4e87e4d9b947461f78af8abeb"
   },
   "bls/cu/cu.aspect": {
-    "fetched": "2026-10-14T23:18:24Z",
-    "sha256": "1b221788720dc0d46cf859726a9b1be0f457b41fb9f9a1987632f1d3d76a09b2"
+    "fetched": "2026-11-10T20:46:03Z",
+    "sha256": "f80ab09ba04b1c3a703c34b402a348fd2a54660c77b56f1566e725732e31c933"
   },
   "bls/cu/cu.base": {
     "fetched": "2026-10-14T23:18:25Z",
@@ -83,15 +83,15 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/cu/cu.series": {
-    "fetched": "2026-10-19T19:47:34Z",
-    "sha256": "0c15b6db9f3c490baef34c87699da2ecd06c5d277e043004d189450f6ddc8b00"
+    "fetched": "2026-11-10T20:46:04Z",
+    "sha256": "7085e772dc0b773e4521eb258b42d6237d427385cbb6058285b32ed202c084a6"
   },
   "bls/cu/cu.txt": {
     "fetched": "2026-10-14T23:18:25Z",
     "sha256": "1394b7f4210fda3d6dab62437bae5bd3664ed040612dd3df6268bc4e2911a471"
   },
   "bls/cu/data": {
-    "fetched": "2026-10-19T19:47:50Z",
+    "fetched": "2026-11-10T20:46:16Z",
     "files": [
       "cu.data.0.Current",
       "cu.data.1.AllItems",
@@ -115,20 +115,20 @@
       "cu.data.8.OtherNorthCentral",
       "cu.data.9.OtherSouth"
     ],
-    "latest_period": "2026-M09",
-    "rows": 1774824,
-    "sha256": "ac5f719ea8477999ba4f66ed0c3de158502b5d24ea3559eeb5a33228398a2bbe"
+    "latest_period": "2026-M10",
+    "rows": 1777848,
+    "sha256": "f3f291b61e40f757f6314dd16b272d9f1145109117af7a3ba804ab203806f098"
   },
   "bls/cu/listing": {
-    "sha256": "ef93205a5e798bfcf284d5c648668dcdd0559a88fd0ac812e7fcacb924d716ba"
+    "sha256": "ab957106df96317c87549f5b7f1e2aa6f9cf4a628f0b99134013d83a8870e242"
   },
   "bls/cw/cw.area": {
     "fetched": "2026-10-14T23:18:42Z",
     "sha256": "f4d0442e38dd4c4909a98b9fc8f8bc5fc8146ca4e87e4d9b947461f78af8abeb"
   },
   "bls/cw/cw.aspect": {
-    "fetched": "2026-10-14T23:18:43Z",
-    "sha256": "0d134c82a8f23ad6e1ac705d27abc3d51f92d9d332f354dced8c601db5a8684e"
+    "fetched": "2026-11-10T20:46:17Z",
+    "sha256": "f41d45006cf18b41bca05810f0c013c40631f23b97c8e6263c1038afa3e36843"
   },
   "bls/cw/cw.base": {
     "fetched": "2026-10-14T23:18:43Z",
@@ -159,15 +159,15 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/cw/cw.series": {
-    "fetched": "2026-10-19T19:47:51Z",
-    "sha256": "d4b8669e513a78665907de660fdded8d9887fc4a780169e58c904a406b9d8b7e"
+    "fetched": "2026-11-10T20:46:19Z",
+    "sha256": "616b2335ee371d50542d82fd6eee0fe5ec26be30be231f3f84a41192914965c6"
   },
   "bls/cw/cw.txt": {
     "fetched": "2026-10-14T23:18:45Z",
     "sha256": "5ad24c7f283fbf7ec317f6e9dce169d8967cf3beed2048e9e5f86df8a1dc5a05"
   },
   "bls/cw/data": {
-    "fetched": "2026-10-19T19:48:11Z",
+    "fetched": "2026-11-10T20:46:33Z",
     "files": [
       "cw.data.0.Current",
       "cw.data.1.AllItems",
@@ -191,12 +191,12 @@
       "cw.data.8.OtherNorthCentral",
       "cw.data.9.OtherSouth"
     ],
-    "latest_period": "2026-M09",
-    "rows": 1697834,
-    "sha256": "f70a70bd77ae75a8245040136a3d38c20aa42dcd3ed4f9ca98838db5b18dc07c"
+    "latest_period": "2026-M10",
+    "rows": 1700739,
+    "sha256": "a54458e8481f136edf29b8d3dc1872665001d96804c193d986dfcd6bb883f7dc"
   },
   "bls/cw/listing": {
-    "sha256": "f7acd59dc89155a10201af4a6a43a0f1e71586659988aa83b6b3f4638277ebe6"
+    "sha256": "9191a133f86708dcd80cee3b9240d8166576d0761ca642c0970c78937075415d"
   },
   "bls/pc/data": {
     "fetched": "2026-10-15T18:14:09Z",
@@ -313,17 +313,17 @@
     "sha256": "e736aa310cdc35422d37dacdb9abbe2c86e85a0988fe98ee0ee1792f3b32cf29"
   },
   "bls/su/data": {
-    "fetched": "2026-10-14T23:19:55Z",
+    "fetched": "2026-11-10T20:46:40Z",
     "files": [
       "su.data.0.Current",
       "su.data.1.AllItems"
     ],
-    "latest_period": "2026-M09",
-    "rows": 9674,
-    "sha256": "234848aaf6012b5af301f2288f00948c701e320245c0018fe0a810119a125d96"
+    "latest_period": "2026-M10",
+    "rows": 9703,
+    "sha256": "46798132b48fdfc4584e4d2ea2bc21c9f6cdc3102957fd71651d2f0dda0c1db5"
   },
   "bls/su/listing": {
-    "sha256": "0ccfa92ee92c12fdee9f29659c2e55e438b83c4743babb18bd3d59ba16c8be0e"
+    "sha256": "cb4af8c0b598d57a25ee9f941b106001c8efb3feb0212bc4f418b24f16b615a6"
   },
   "bls/su/su.area": {
     "fetched": "2026-10-14T23:19:53Z",
@@ -350,8 +350,8 @@
     "sha256": "801baddf3511b8d9b03c0dbd1a9d9365c668b911a2228c6c594ea8a684ace5d7"
   },
   "bls/su/su.series": {
-    "fetched": "2026-10-14T23:19:54Z",
-    "sha256": "f9e620d1efd9655cb30f5d2daf11e30ddac7d09c379a694c34ebc8943b45076f"
+    "fetched": "2026-11-10T20:46:40Z",
+    "sha256": "b264603ff9a20d1e2a0a2e6a7ba1a51ad7d79567abd3c97d4c47e20bdbe9b906"
   },
   "bls/su/su.txt": {
     "fetched": "2026-10-14T23:19:54Z",
