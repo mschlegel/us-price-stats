@@ -161,11 +161,9 @@ group_code	item_code	item_name
 01	7	Chicken eggs
 01	71	Chicken eggs
 01	7107	Eggs for fresh use
-01	710701	Eggs, jumbo
 01	710702	Eggs, extra large
 01	710703	Eggs, large
 01	710704	Eggs, medium
-01	710705	Eggs, small
 01	7108	Breaker stock and checks and undergrades
 01	710801	Breaker stock
 01	710802	Checks and undergrades
@@ -262,8 +260,8 @@ group_code	item_code	item_name
 02	21050324	Other sausage (smoked or cooked) & jellied goods & similar preparations, excluding canned, mfpc
 02	210504	Boxed meat (beef, pork, lamb, etc.), made from purchased carcasses
 02	210579	Canned meats, excluding dog, cat, and baby food
-02	2105792	Canned meats, excluding dog, cat, and baby food, mfpc
-02	210586	Frozen ground meat patties and other processed, frozen, or cooked meats, mfpc
+02	2105792	Canned meats, (excluding dog, cat, and baby food), made from purchased carcasses
+02	210586	Frozen/fresh ground meat patties and other processed, frozen, or cooked meats, mfpc
 02	22	Processed poultry
 02	2203	Young chickens, including bulk, chilled, frozen, whole, and in parts
 02	220333	Young chickens, including bulk, chilled, frozen, whole, and in parts
@@ -626,10 +624,8 @@ group_code	item_code	item_name
 03	8	Apparel & other fabricated textile prods
 03	81	Apparel
 03	8104	Miscellaneous apparel and accessories
-03	810414	Men's and boys' fabric, straw, and felt hats, made from purchased materials
-03	810415	Women's, girls', and infants' fabric, straw, and felt hats, made from purchased materials
-03	810416	Hat bodies and fabric caps, made from purchased materials
 03	810424	Gloves and mittens, made from purchased materials
+03	810431	Hats, caps, and millinery products
 03	810441	Apparel and accessories, n.e.c.
 03	81044118	All other cut and sew apparel, made from purchased materials
 03	8104412	Fabricated apparel accessories
@@ -966,6 +962,8 @@ group_code	item_code	item_name
 06	5105011	Mixed fertilizers, made in plants which manufacture fertilizer materials
 06	5105012	Mixed fertilizers, dry, mixing only
 06	5105013	Mixed fertilizers, liquid, mixing only
+06	5106	Compost
+06	510601	Compost
 06	52	Fertilizer materials
 06	5201	Nitrogenates
 06	520137	Fertilizer materials of organic origin
@@ -1498,6 +1496,7 @@ group_code	item_code	item_name
 10	230101	No. 1 copper scrap, including wire
 10	230102	No. 2 copper scrap, including wire
 10	230103	Yellow brass scrap
+10	230105	Other copper and brass scrap
 10	2302	Aluminum base scrap
 10	230201	Solids and clippings, new aluminum base scrap
 10	230202	Borings, turnings, and other new aluminum base scrap
@@ -3920,6 +3919,7 @@ IP	32551013	Inputs to 325510, goods less foods and energy
 IP	3255102	Inputs to 325510, services
 IP	32551021	Inputs to 325510, trade services
 IP	32551022	Inputs to 325510, transportation and warehousing services
+IP	32551024	Inputs to 325510, services less trade, transportation, and warehousing
 IP	326100	Inputs to 326100, plastics products manufacturing, excl. capital investment, labor, and imports
 IP	3261001	Inputs to 326100, goods
 IP	32610012	Inputs to 326100, energy

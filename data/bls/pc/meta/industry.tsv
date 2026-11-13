@@ -178,7 +178,7 @@ industry_code	industry_name
 315250	Cut and sew apparel manufacturing (except contractors)
 3159--	Accessories and other apparel manufacturing
 31599-	Accessories and other apparel manufacturing
-315990	Accessories and other apparel manufacturing
+315990	Apparel accessories and other apparel manufacturing
 3162--	Footwear manufacturing
 31621-	Footwear manufacturing
 316210	Footwear manufacturing
@@ -264,7 +264,7 @@ industry_code	industry_name
 32531-	Fertilizer mfg
 325311	Nitrogenous fertilizer manufacturing
 325312	Phosphatic fertilizer manufacturing
-325314	Fertilizer, mixing only, manufacturing (including compost)
+325314	Fertilizer, mixing only, manufacturing, including compost
 32532-	Pesticide and other agricultural chemical mfg
 325320	Pesticide and other agricultural chemical manufacturing
 3254--	Pharmaceutical and medicine mfg

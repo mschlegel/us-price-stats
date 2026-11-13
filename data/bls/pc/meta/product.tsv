@@ -488,16 +488,16 @@ industry_code	product_code	product_name
 311612	31161213	Smoked slab bacon, made from purchased carcasses
 311612	31161214	Smoked sliced bacon, made from purchased carcasses
 311612	31161215	Other smoked pork, not canned or made into sausage, made from purchased carcasses
-311612	31161216	Boiled ham, barbecue pork, and other cooked pork, except canned meats and sausage, mfpc
+311612	31161216	Boiled ham, barbecue pork, and other cooked pork, excluding canned meats and sausage, mfpc
 311612	3116124	Sausage and similar products, excluding canned, made from purchased carcasses
 311612	31161241	Fresh sausage (pork sausage, breakfast links, etc.), excluding canned, mfpc
 311612	31161242	Dry or semidry sausage (salami, cervelat, pepperoni, summer sausage, pork roll, etc), mfpc
 311612	31161243	Frankfurters, including wieners, excluding canned, made from purchased carcasses
 311612	31161244	Other sausage (smoked or cooked) & jellied goods & similar preparations, excluding canned, mfpc
-311612	3116127	Canned meats, excluding dog, cat, and baby food, made from purchased carcasses
+311612	3116127	Canned meats, (excluding dog, cat, and baby food), made from purchased carcasses
 311612	311612A	Other processed, frozen, or cooked meats, made from purchased carcasses
 311612	311612A1	Boxed meat (beef, pork, lamb, etc.), made from purchased carcasses
-311612	311612A5	Frozen ground meat patties and other processed, frozen, or cooked meats, mfpc
+311612	311612A5	Frozen/fresh ground meat patties and other processed, frozen, or cooked meats, mfpc
 311612	311612M	Miscellaneous receipts
 311612	311612MM	Miscellaneous receipts
 311612	311612P	Primary products
@@ -875,11 +875,8 @@ industry_code	product_code	product_name
 315250	315250S	Secondary products
 3159--	3159--	Accessories and other apparel manufacturing
 31599-	31599-	Accessories and other apparel manufacturing
-315990	315990	Accessories and other apparel manufacturing
+315990	315990	Apparel accessories and other apparel manufacturing
 315990	3159904	Hats, caps, and millinery products
-315990	31599041	Men's and boys' fabric, straw, and felt hats, made from purchased materials
-315990	31599043	Women's, girls', and infants' fabric, straw, and felt hats, made from purchased materials
-315990	31599045	Hat bodies and fabric caps, made from purchased materials
 315990	3159907	Gloves and mittens, made from purchased materials
 315990	3159908	Men's and boys' neckwear, made from purchased materials
 315990	315990B	All other accessories and apparel
@@ -1326,10 +1323,11 @@ industry_code	product_code	product_name
 325312	325312S	Secondary products
 325312	325312SM	Secondary products and miscellaneous receipts
 325312	325312SS	Secondary products
-325314	325314	Fertilizer, mixing only, manufacturing (including compost)
+325314	325314	Fertilizer, mixing only, manufacturing, including compost
 325314	3253140	Mixed fertilizers, mixing only
 325314	32531401	Mixed fertilizers, dry, mixing only
 325314	32531402	Mixed fertilizers, liquid, mixing only
+325314	32531403	Compost
 325314	325314M	Miscellaneous receipts
 325314	325314MM	Miscellaneous receipts
 325314	325314P	Primary products
@@ -1791,6 +1789,7 @@ industry_code	product_code	product_name
 327332	32733202	Concrete storm sewer pipe
 327332	32733203	Concrete pipe, except concrete culvert and storm sewer pipe
 327332	327332P	Primary products
+327332	327332S1	Secondary products
 32739-	32739-	Other concrete product manufacturing
 327390	327390	Other concrete product manufacturing
 327390	3273901	Precast concrete products
@@ -3305,6 +3304,8 @@ industry_code	product_code	product_name
 42310-	42310-	Motor vehicle and parts merchant wholesalers
 423100	423100	Motor vehicle and parts merchant wholesalers
 423100	4231001	Motor vehicle and parts wholesaler services
+423100	42310011	Wholesaling of new and used vehicles
+423100	42310012	Wholesaling of vehicle parts, supplies, and all other goods
 423100	423100P	Primary services
 423100	423100SM	Other receipts
 4232--	4232--	Furniture and home furnishing merchant wholesalers
@@ -3480,7 +3481,7 @@ industry_code	product_code	product_name
 441330	441330P	Primary services
 44134-	44134-	Tire dealers
 441340	441340	Tire dealers
-441340	441340A	Tire dealer services, in-store retailing
+441340	441340A	Tire dealers services
 441340	441340P	Primary services
 444---	444---	Building material & garden supply retailers
 4441--	4441--	Building material and supplies dealers
